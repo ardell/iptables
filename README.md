@@ -74,7 +74,7 @@ This would go in the cookbook,
 `httpd/templates/default/port_http.erb`. Then to use it in
 `recipe[httpd]`:
 
-    iptables_rule "http"
+    iptables_rule "port_http"
 
 License and Author
 ==================
